@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sendgrid_integration *.css
+recursive-include sendgrid_integration *.csv
+recursive-include sendgrid_integration *.html
+recursive-include sendgrid_integration *.ico
+recursive-include sendgrid_integration *.js
+recursive-include sendgrid_integration *.json
+recursive-include sendgrid_integration *.md
+recursive-include sendgrid_integration *.png
+recursive-include sendgrid_integration *.py
+recursive-include sendgrid_integration *.svg
+recursive-include sendgrid_integration *.txt
+recursive-exclude sendgrid_integration *.pyc
